@@ -1,0 +1,19 @@
+num = [1,4,5,67,34,55,78,90,2,44,65,33,35,50]
+
+suma_pares = 0
+suma_impares = 0
+
+print("Números pares:")
+for numero in num:
+  if numero % 2 == 0:
+    print(numero)
+    suma_pares += numero
+
+print("\nNúmeros impares:")
+for numero in num:
+  if numero % 2 != 0:
+    print(numero)
+    suma_impares += numero
+
+print("\nLa suma de los números pares es:", suma_pares)
+print("La suma de los números impares es:", suma_impares)
