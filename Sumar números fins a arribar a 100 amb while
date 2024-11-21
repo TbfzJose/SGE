@@ -1,0 +1,8 @@
+suma = 0
+numero = 0
+
+while numero <= 100:
+  suma += numero
+  numero += 1
+
+print("La suma de los números del 0 al 100 es:", suma)
